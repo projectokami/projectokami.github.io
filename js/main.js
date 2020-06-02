@@ -1,9 +1,6 @@
 $(document) .ready(function() {
    /*Sidebar Menu*/
    "use strict";
-   $('#sidebar-btn').on('click', function() {
-      $('#sidebar').toggleClass('visible');
-   });
 
    $(".owl-carousel").owlCarousel({
      loop: true,
@@ -65,28 +62,11 @@ $(document) .ready(function() {
     });
    });
 
-   new Particles(document.getElementById("particles"), {
 
-    // size of the particles
-    size: { 
-      min: 0,
-      max: 2
-    },
+  $(function() {
+    $('.selector').animatedHeadline();
+  })
 
-    // density of particles on the canvas
-    density: 1000,  
-
-    // speed of the particules
-    speed: 1, 
-
-    // number of times per second the canvas is refreshed
-    fps: 60, 
-
-    // color of the particles
-    color: "#898989" 
-    
-   });
-     
 }); 
 });
 

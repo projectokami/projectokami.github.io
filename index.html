@@ -15,10 +15,10 @@
       <link href="css/main.css" rel="stylesheet">
       <!-- Font-Awesome CSs -->
       <link rel="stylesheet" href="css/font-awesome.min.css">
-      <!-- ION-ICONS CSS -->
-      <link rel="stylesheet" href="css/ionicons.min.css">
       <!-- Animated Headline CSs -->
       <link rel="stylesheet" href="css/jquery.animatedheadline.css">
+      <!-- ION-ICONS CSS -->
+      <link rel="stylesheet" href="css/ionicons.min.css">
       <!-- NORMALIZE CSS -->
       <link rel="stylesheet" href="css/normalize.css">
       <!-- Magnific Popup CSS -->
@@ -36,7 +36,6 @@
    <body>
       <!-- Header Section --> 
       <div class="header" id="header">
-         <canvas id="particles"></canvas>
          <div class="container">
             <div class="row">
                <nav class="navbar fixed-top navbar-expand-lg">
@@ -79,15 +78,19 @@
                </nav>
                <div class="header-wrapper">
                   <div class="col-md-12 col-xs-12 text-center">
-                     <img src="http://placehold.it/200x200" class="img-responsive" alt="avatar">
-                     
-                     <h1>CREATIVE PORTFOLIO TEMPLATE</h1>
-                     <ul class="links">
-                        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
-                     </ul>
+                      
+                     <div class="selector">
+                        <h1 class="ah-headline">
+                           <span>I'am</span>
+                              <span class="ah-words-wrapper">
+                              <b class="is-visible">DESIGNER</b>
+                              <b>DEVELOPER</b>
+                              <b>MARKETEER</b>
+                           </span>
+                        </h1>
+                     </div>
+                     <h4 class="sm-title">LOCATED IN NY</h4>
+      
                   </div>
                </div>
             </div>
@@ -98,54 +101,42 @@
       <div class="main-wrapper">
          
          <!-- About Section -->
-         
-         <div class="about" id="about">
-            <div class="container-fluid">
-               <div class="row">
-                  <div class="no-padding col-lg-12 col-md-12 col-xs-12 text-center">
-                     <div class="text-wrapper">
-                        <div class="owl-carousel owl-theme">
-                        <div class="item">
-                           
-                           <h3>ABOUT</h3>
-                           <div class="line"></div>
-                           <h5>OUR AWESOME STORY</h5>
-                           <p class="about-text">Phasellus ullamcorper arcu in nisl tincidunt, quis tempus lorem rhoncus. Morbi nec sollicitudin dolor. Fusce sit amet quam eu orci varius venenatis. Nulla facilisi. Nam faucibus nulla ut dui dapibus, id feugiat sapien blandit. Quisque vitae risus lacus. Integer congue posuere felis. Sed quis porta enim. Nulla convallis, Fusce sit amet quam eu orci varius venenatis. Nulla facilisi. Nam faucibus nulla ut dui dapibus, id feugiat sapien blandit.</p>
-                        </div>
-                        <div class="item">
-                              <h3>SKILLS</h3>
-                              <div class="line"></div>
-                              <div class="single_progress_bar">
-                                 <h2>DESIGN - 90%</h2>
-                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                                       <span class="sr-only">60% Complete</span>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="single_progress_bar">
-                                 <h2>FRONTEND - 80%</h2>
-                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                                       <span class="sr-only">60% Complete</span>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="single_progress_bar">
-                                 <h2>UX/UI - 60%</h2>
-                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                                       <span class="sr-only">60% Complete</span>
-                                    </div>
-                                 </div>
-                              </div>
-                        </div>
-                     </div>
-                  </div>
-              
-               </div>
-            </div>
+
+<div class="about" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-xs-12 text-center">  
+           <h4 class="title">ABOUT</h4>
+           <hr class="line">
+           <p class="main-text">Chuck shankle drumstick pancetta venison alcatra ham turducken short ribs frankfurter brisket meatloaf. Jerky brisket beef ribs ham hock pig drumstick corned beef hamburger pancetta biltong fatback. Biltong swine beef ribs.</p>
+        </div>      
+      </div> 
+    </div>
+</div>
+
+<!-- Services Section -->
+
+<div class="services" id="services">
+     <div class="container">
+         <div class="row">
+             <div class="col-md-4 col-xs-12 text-center">
+                 <i class="fa fa-crop" aria-hidden="true"></i>
+                 <h4>WEB DESIGN</h4>
+                 <p>Strip steak turducken kevin salami, boudin landjaeger jowl.</p>
+             </div>
+             <div class="col-md-4 col-xs-12 text-center">
+                 <i class="fa fa-desktop" aria-hidden="true"></i>
+                 <h4>UI/UX DESIGN</h4>
+                 <p>Strip steak turducken kevin salami, boudin landjaeger jowl.</p>
+             </div>
+             <div class="col-md-4 col-xs-12 text-center">
+                 <i class="fa fa-code" aria-hidden="true"></i>
+                 <h4>FRONTEND</h4>
+                 <p>Strip steak turducken kevin salami, boudin landjaeger jowl.</p>
+             </div>
          </div>
+     </div>
+</div>
                
          <!-- Portfolio Section -->
          <div class="work" id="work">
